@@ -12,7 +12,7 @@ public class ExamenUnidad2 {
     public void Sandra69971() {
         String nombre = "Sandra Lizette Sanchez Ramirez";
         String matricula = "69971";
-        String correo = "al069971";
+        String correo = "al069971@uacam.mx";
         
         String resultado = "Nombre: " + nombre + "\n" + "Matrciula: " + matricula + "\n" +"Correo electronico: " + correo;
         

@@ -13,7 +13,7 @@ import javax.swing.table.DefaultTableModel;
  * @author sardr
  */
 public class Principal extends javax.swing.JFrame {
-    DefaultTableModel dtmElementos = new DefaultTableModel(){
+    DefaultTableModel DatoElement = new DefaultTableModel(){
         @Override
         public boolean isCellEditable(int row, int column){
             return false;
@@ -31,13 +31,13 @@ public class Principal extends javax.swing.JFrame {
 
     public void setModelo(){
         String[] tblcabecera = {"Numero Atómico", "Simbolo", "Nombre", "Masa atómica", "Color"};
-        dtmElementos.setColumnIdentifiers(tblcabecera);
-        Table.setModel(dtmElementos);
+        DatoElement.setColumnIdentifiers(tblcabecera);
+        Table.setModel(DatoElement);
     }
      
     public void setDatos(){
-        Object[] datos = new Object[dtmElementos.getColumnCount()];
-        dtmElementos.setRowCount(0);
+        Object[] datos = new Object[DatoElement.getColumnCount()];
+        DatoElement.setRowCount(0);
         // System.out.println("municipios.size() "+municipios.size());
         for (TablaPeriodic table : elementos) {
             datos[0] = table.getNumeroAtomico();
@@ -45,10 +45,10 @@ public class Principal extends javax.swing.JFrame {
             datos[2] = table.getNombre();
             datos[3] = table.getMasaAtomica();
             datos[4] = table.getColor();
-            dtmElementos.addRow(datos);
+            DatoElement.addRow(datos);
         }
         
-        Table.setModel(dtmElementos);
+        Table.setModel(DatoElement);
     }
     /**
      * This method is called from within the constructor to initialize the form.

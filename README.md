@@ -27,4 +27,7 @@
 * ### 💫Por último se le agrego el boton de Exportar Y el de Archivo para que este haga su funcionalidad de abrir archivos de texto💫
 ![Captura de pantalla 2023-05-22 232520](https://github.com/LIXpEn56/ExamenUnidad2/assets/129222040/1087e437-6cd7-4cb4-8644-7e19d6dc2dda)
 
+* ### Resultado Final✅
+![Captura de pantalla 2023-05-22 235051](https://github.com/LIXpEn56/ExamenUnidad2/assets/129222040/90c72dd1-0183-4a3c-8bd4-0082646d604d)
+
 
